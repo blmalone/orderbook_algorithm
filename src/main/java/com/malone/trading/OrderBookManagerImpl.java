@@ -11,7 +11,6 @@ public class OrderBookManagerImpl implements OrderBookManager {
      */
     private HashMap<String, OrderBook> orderBooks = new HashMap<String, OrderBook>() {{
        put("BTC", new OrderBook("BTC"));
-        //put("VOD.L", new OrderBook("VOD.L"));
     }};
 
     public void addOrder(final Order order) {
