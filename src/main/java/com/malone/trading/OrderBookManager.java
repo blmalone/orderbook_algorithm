@@ -1,10 +1,7 @@
-package com.cryptofacilities.interview;
+package com.malone.trading;
 
 import java.util.List;
 
-/**
- * Created by CF-8 on 6/27/2017.
- */
 public interface OrderBookManager {
 
     /**

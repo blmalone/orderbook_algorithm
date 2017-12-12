@@ -1,12 +1,9 @@
-package com.cryptofacilities.interview;
+package com.malone.trading;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by CF-8 on 6/27/2017.
- */
 public class SampleTest {
 
     @Test
@@ -15,7 +12,6 @@ public class SampleTest {
         OrderBookManager orderBookManager = new OrderBookManagerImpl();
 
         // create order
-        //Instrument - Vodafone.London
         Order buy = new Order("order1", "BTC", Side.buy, 200, 10 );
 
         // send order

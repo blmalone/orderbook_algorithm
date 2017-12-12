@@ -1,4 +1,4 @@
-package com.cryptofacilities.interview;
+package com.malone.trading;
 
 import org.junit.Test;
 

@@ -1,8 +1,5 @@
-package com.cryptofacilities.interview;
+package com.malone.trading;
 
-/**
- * Created by CF-8 on 6/27/2017.
- */
 public class Order {
 
     /**
